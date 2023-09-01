@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+:root {
+  --background-color: #fffef9;
+  --header-color: #d2c3b6;
+  --header-text-color: white;
+  --text-color: rgb(146, 109, 109);
+  --hover-color: #1b1b32;
+  --border-color: rgba(99, 91, 91, 0.33);
+  --border-color2: rgba(146, 109, 109, 0.3);
+}
+
+@font-face {
+  font-family: king;
+  src: url("fonts/King.woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: king;
+  overflow-x: hidden;
+  position: relative;
+  line-height: 0.75rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+p {
+  line-height: 1.7;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  line-height: 2.2;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
+
+/* Resume */
+
+.resume-item {
+  border-bottom: 3px solid var(--text-color);
+  margin-top: 40px;
+}
+
+.resume h2 {
+  text-decoration: underline;
+}
+
+.resume ul {
+  padding: 0px 0px 30px 0px;
+}
+
+.resume-item:last-of-type {
+  border: none;
+}
+
+.resume li {
+  padding: 0.5rem 2rem;
+  list-style: none;
+  font-weight: thin;
+}
+
+#download-resume {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.loadingSpinnerContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingSpinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #000 transparent #555 transparent;
+  border-radius: 50%;
+  animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
