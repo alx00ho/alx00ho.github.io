@@ -1,11 +1,14 @@
+const donutAnimationSource =
+  "https://user-images.githubusercontent.com/46589739/246997278-7f9a242d-7bb7-4790-84e7-cfe6c424e5d1.mp4";
+
 function Projects() {
   return (
     <>
       <section id="projects-info">
-        <div class="container">
-          <section id="projects-past" class="projects past">
+        <div className="container">
+          <section id="projects-past">
             <h1>Past Projects</h1>
-            <div class="project-item">
+            <div className="project-item">
               <h2>
                 <a
                   href="https://main--ubiquitous-kitsune-15d1b7.netlify.app/"
@@ -19,7 +22,7 @@ function Projects() {
                 Traversy Media's tutorial
               </p>
             </div>
-            <div class="project-item">
+            <div className="project-item">
               <h2>
                 <a
                   href="https://timely-chebakia-c81e3f.netlify.app/"
@@ -33,7 +36,7 @@ function Projects() {
                 RestCountries API for list of countries.
               </p>
             </div>
-            <div class="project-item">
+            <div className="project-item">
               <h2>
                 <a
                   href="https://roaring-rugelach-3c14e6.netlify.app/"
@@ -44,13 +47,13 @@ function Projects() {
               </h2>
               <p>Count how many boba scoops you have scooped in a day.</p>
             </div>
-            <div class="project-item">
+            <div className="project-item">
               <h2>Image Resizer</h2>
               <p>
                 Desktop app to resize your images. Tutorial by Traversy Media
               </p>
             </div>
-            <div class="project-item">
+            <div className="project-item">
               <h2>
                 <a
                   href="https://benevolent-kleicha-e081fe.netlify.app/"
@@ -61,21 +64,21 @@ function Projects() {
               </h2>
               <p>Simple Javscript Breakout game based on Mozilla's tutorial.</p>
             </div>
-            <div class="project-item">
+            <div className="project-item">
               <h2>Netflix Landing Clone</h2>
               <p>
                 Clone of the Netflix landing page, tutorial by Traversy Media
               </p>
             </div>
-            <div class="project-item">
+            <div className="project-item">
               <h2>Random Joke Generator</h2>
               <p>Generate a random joke from an API</p>
             </div>
-            <div class="project-item">
+            <div className="project-item">
               <h2>Chrome Extension</h2>
               <p>Save links to any website you visit.</p>
             </div>
-            <div class="project-item">
+            <div className="project-item">
               <h2>CSS Art</h2>
               <p>Playing around with CSS</p>
             </div>
@@ -91,15 +94,12 @@ function Projects() {
                 </a>
                 on Youtube
               </p>
-              <video width="270" height="360" autoplay loop muted>
-                <source
-                  src="https://user-images.githubusercontent.com/46589739/246997278-7f9a242d-7bb7-4790-84e7-cfe6c424e5d1.mp4"
-                  type="video/MP4"
-                />
+              <video width="270" height="360" autoPlay loop muted>
+                <source src={donutAnimationSource} type="video/MP4" />
               </video>
             </div>
           </section>
-          <section id="projects-upcoming" class="projects upcoming">
+          <section id="projects-upcoming">
             <h1>Upcoming Projects</h1>
             <ul>
               <li>Lobster and Tofu Website</li>
