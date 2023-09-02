@@ -7,7 +7,7 @@ function Projects() {
       <section id="projects-info">
         <div className="container">
           <section id="projects-past">
-            <h1>Past Projects</h1>
+            <h1 className="text-4xl underline mb-8">Past Projects</h1>
             <div className="project-item">
               <h2>
                 <a
@@ -82,7 +82,7 @@ function Projects() {
               <h2>CSS Art</h2>
               <p>Playing around with CSS</p>
             </div>
-            <div id="3d-projects">
+            <div id="3d-projects" className="project-item">
               <h2>3D Donut Render on Blender</h2>
               <p>
                 My version of a 3D Donut from the
@@ -100,7 +100,7 @@ function Projects() {
             </div>
           </section>
           <section id="projects-upcoming">
-            <h1>Upcoming Projects</h1>
+            <h1 className="text-4xl underline mb-8">Upcoming Projects</h1>
             <ul>
               <li>Lobster and Tofu Website</li>
               <li>Musical Soundtracks</li>

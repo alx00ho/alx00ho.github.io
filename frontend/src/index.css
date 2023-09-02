@@ -110,6 +110,16 @@ h3 {
   height: 90% !important;
 }
 
+/* Projects */
+.project-item {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.project-item h2 {
+  font-size: x-large;
+}
+
 .loadingSpinnerContainer {
   position: fixed;
   top: 0;

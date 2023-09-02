@@ -9,7 +9,8 @@ function Resume() {
       </section>
       <div id="download-resume">
         <a
-          href="../files/AlexanderHoResume.pdf"
+          href={AHResume}
+          download="AlexanderHoResume.pdf"
           className="btn border m-auto mt-8 px-4 py-2 text-xl rounded bg-gray-500 text-white"
           target="react/jsx-no-target-blank"
         >
