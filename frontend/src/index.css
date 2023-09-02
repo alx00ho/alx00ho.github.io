@@ -5,10 +5,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 
 :root {
-  --background-color: #fffef9;
+  --background-color: #fcf5df;
   --header-color: #d2c3b6;
   --header-text-color: white;
-  --text-color: rgb(146, 109, 109);
+  --text-color: #574545;
   --hover-color: #1b1b32;
   --border-color: rgba(99, 91, 91, 0.33);
   --border-color2: rgba(146, 109, 109, 0.3);
@@ -32,11 +32,6 @@ body {
   overflow-x: hidden;
   position: relative;
   line-height: 0.75rem;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
 }
 
 p {
@@ -66,8 +61,13 @@ h3 {
   text-align: center;
 }
 
+.btn {
+  background: var(--header-color);
+  border: var(--border-color2) 0.1rem solid;
+}
+
 .btn:hover {
-  transform: scale(0.98);
+  transform: scale(1.02);
 }
 
 /* Resume */
@@ -91,7 +91,7 @@ h3 {
 
 .resume li {
   padding: 0.5rem 2rem;
-  list-style: none;
+  list-style: circle;
   font-weight: thin;
 }
 
@@ -99,6 +99,15 @@ h3 {
   display: flex;
   align-items: center;
   width: 100%;
+}
+
+/* ReactPDF */
+.react-pdf__Page__canvas {
+  margin: auto;
+  border: #70809061 0.1rem solid;
+  border-radius: 5px;
+  width: 70% !important;
+  height: 90% !important;
 }
 
 .loadingSpinnerContainer {
