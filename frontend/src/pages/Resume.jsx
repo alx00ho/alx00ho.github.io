@@ -1,4 +1,4 @@
-import AHResume from "../files/AlexanderHoResume.pdf";
+import AHResume from "frontendsrc\filesAlexanderHoResume.pdf";
 import PDFViewer from "../components/PDFViewer";
 
 function Resume() {
