@@ -1,5 +1,5 @@
 import PDFViewer from "../components/PDFViewer";
-let AHResume = require("../files/AlexanderHoResume.pdf");
+import AHResume from "../files/AlexanderHoResume.pdf";
 
 function Resume() {
   return (

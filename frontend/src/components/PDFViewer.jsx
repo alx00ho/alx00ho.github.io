@@ -1,20 +1,10 @@
-import { pdfjs, Document, Page } from "react-pdf";
-
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  "pdfjs-dist/build/pdf.worker.min.js",
-  import.meta.url
-).toString();
-
 function PDFViewer({ file }) {
   return (
-    <Document file={file} className="m-auto">
-      <Page
-        pageNumber={1}
-        renderAnnotationLayer={false}
-        renderTextLayer={false}
-        canvasBackground="transparent"
-      />
-    </Document>
+    <object data={file} type="application/pdf" width="100%" height="1080px">
+      <p>
+        Unable to display PDF file. <a href={file}>Document</a>
+      </p>
+    </object>
   );
 }
 export default PDFViewer;
