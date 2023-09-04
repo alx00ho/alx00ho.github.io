@@ -120,6 +120,11 @@ h3 {
   font-size: x-large;
 }
 
+.project-item h2:hover {
+  transform: scale(1.02);
+  padding-left: 0.5rem;
+}
+
 .loadingSpinnerContainer {
   position: fixed;
   top: 0;
