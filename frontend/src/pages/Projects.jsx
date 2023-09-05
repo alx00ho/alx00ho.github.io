@@ -1,4 +1,5 @@
 import CSSPenguin from "../components/CSSPenguin";
+import CSSCity from "../components/CSSCity";
 import VideoPlayer from "../components/VideoPlayer";
 
 const donutAnimationSource =
@@ -83,8 +84,21 @@ function Projects() {
             </div>
             <div className="project-item">
               <h2>CSS Art</h2>
-              <p>Playing around with CSS</p>
-              <CSSPenguin />
+              <p>
+                Playing around with CSS on{" "}
+                <a
+                  className="underline"
+                  href="http://freecodecamp.org"
+                  target="react/jsx-no-target-blank"
+                  rel="noopener noreferrer"
+                >
+                  freeCodeCamp.org
+                </a>
+              </p>
+              <div id="css-art" className="flex">
+                <CSSCity />
+                <CSSPenguin />
+              </div>
             </div>
             <div id="3d-projects" className="project-item">
               <h2>3D Donut Render on Blender</h2>

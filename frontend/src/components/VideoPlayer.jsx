@@ -8,9 +8,9 @@ function VideoPlayer() {
         className="react-player video"
         width="100%"
         height="100%"
-        playing="true"
-        loop="true"
-        muted="true"
+        playing={true}
+        loop={true}
+        muted={true}
       />
     </div>
   );

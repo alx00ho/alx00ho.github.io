@@ -2,39 +2,39 @@ import "../css/CSSPenguin.css";
 
 function CSSPenguin() {
   return (
-    <div id="css-penguin">
-      <div class="left-mountain"></div>
-      <div class="back-mountain"></div>
-      <div class="sun"></div>
-      <div class="penguin">
-        <div class="penguin-head">
-          <div class="face left"></div>
-          <div class="face right"></div>
-          <div class="chin"></div>
-          <div class="eye left">
-            <div class="eye-lid"></div>
+    <div id="css-penguin" className="border-2 border-stone-700 rounded">
+      <div className="left-mountain"></div>
+      <div className="back-mountain"></div>
+      <div className="sun"></div>
+      <div className="penguin">
+        <div className="penguin-head">
+          <div className="face left"></div>
+          <div className="face right"></div>
+          <div className="chin"></div>
+          <div className="eye left">
+            <div className="eye-lid"></div>
           </div>
-          <div class="eye right">
-            <div class="eye-lid"></div>
+          <div className="eye right">
+            <div className="eye-lid"></div>
           </div>
-          <div class="blush left"></div>
-          <div class="blush right"></div>
-          <div class="beak top"></div>
-          <div class="beak bottom"></div>
+          <div className="blush left"></div>
+          <div className="blush right"></div>
+          <div className="beak top"></div>
+          <div className="beak bottom"></div>
         </div>
-        <div class="shirt">
+        <div className="shirt">
           <div>💜</div>
           <p>I CSS</p>
         </div>
-        <div class="penguin-body">
-          <div class="arm left"></div>
-          <div class="arm right"></div>
-          <div class="foot left"></div>
-          <div class="foot right"></div>
+        <div className="penguin-body">
+          <div className="arm left"></div>
+          <div className="arm right"></div>
+          <div className="foot left"></div>
+          <div className="foot right"></div>
         </div>
       </div>
 
-      <div class="ground"></div>
+      <div className="ground"></div>
     </div>
   );
 }
