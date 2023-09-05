@@ -8,7 +8,7 @@
   background: linear-gradient(45deg, rgb(118, 201, 255), rgb(247, 255, 222));
   margin: 0;
   padding: 0;
-  max-width: 400px;
+  max-width: 300px;
   max-height: 300px;
   overflow: hidden;
   position: relative;
@@ -31,7 +31,7 @@
   position: absolute;
   z-index: 1;
   transform: rotate(45deg);
-  left: -10px;
+  left: -70px;
   top: 120px;
 }
 
