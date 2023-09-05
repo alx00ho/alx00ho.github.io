@@ -1,3 +1,6 @@
+import CSSPenguin from "../components/CSSPenguin";
+import VideoPlayer from "../components/VideoPlayer";
+
 const donutAnimationSource =
   "https://user-images.githubusercontent.com/46589739/246997278-7f9a242d-7bb7-4790-84e7-cfe6c424e5d1.mp4";
 
@@ -81,25 +84,27 @@ function Projects() {
             <div className="project-item">
               <h2>CSS Art</h2>
               <p>Playing around with CSS</p>
+              <CSSPenguin />
             </div>
             <div id="3d-projects" className="project-item">
               <h2>3D Donut Render on Blender</h2>
-              <p>
+              <p className="mb-2">
                 My version of a 3D Donut from the
+                <span> </span>
                 <a
+                  className="underline"
                   target="react/jsx-no-target-blank"
                   href="https://www.youtube.com/watch?v=nIoXOplUvAw&list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&index=1"
                 >
                   Blender Guru's tutorial
                 </a>
+                <span> </span>
                 on Youtube
               </p>
-              <video width="270" height="360" autoPlay loop muted>
-                <source src={donutAnimationSource} type="video/MP4" />
-              </video>
+              <VideoPlayer></VideoPlayer>
             </div>
           </section>
-          <section id="projects-upcoming">
+          <section id="projects-upcoming" className="text-right">
             <h1 className="text-4xl underline mb-8">Upcoming Projects</h1>
             <ul>
               <li>Lobster and Tofu Website</li>
