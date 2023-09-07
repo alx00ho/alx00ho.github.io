@@ -112,11 +112,16 @@ h3 {
 
 /* Projects */
 .project-item {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   text-align: left;
 }
 
+.project-item p {
+  margin-bottom: 1rem;
+}
+
 .project-item h2 {
+  margin: 0;
   font-size: x-large;
 }
 

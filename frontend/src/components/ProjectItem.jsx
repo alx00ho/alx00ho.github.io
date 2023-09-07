@@ -1,17 +1,19 @@
-function ProjectItem(params) {
+function ProjectItem(props) {
   return (
-    <div className="project-item">
-      <h2>
+    <li className="project-item" key={props.id}>
+      <h2 className="project-title">
         <a
-          href={params.link}
+          href={props.link}
           target="react/jsx-no-target-blank"
           rel="noopener noreferrer"
+          className="project-link"
         >
-          {params.title}
+          {props.title}
         </a>
       </h2>
-      <p>{params.desc}</p>
-    </div>
+      <p className="project-desc">{props.desc}</p>
+      <div className="project-extras">{props.extras}</div>
+    </li>
   );
 }
 export default ProjectItem;
