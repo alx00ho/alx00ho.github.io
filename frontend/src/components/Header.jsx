@@ -6,7 +6,7 @@ function Header() {
       <h1>
         <Link to="/">Alexander Ho</Link>
       </h1>
-      <nav className="flex space-x-4 text-lg">
+      <nav className="flex flex-col space-x-4 text-lg md:flex-row">
         <h1 className="ml-2">
           <Link to="/">Home</Link>
         </h1>
