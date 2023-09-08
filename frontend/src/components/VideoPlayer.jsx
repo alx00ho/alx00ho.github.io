@@ -1,4 +1,5 @@
 import ReactPlayer from "react-player";
+import { isMobile } from "react-device-detect";
 
 function VideoPlayer(link) {
   return (
@@ -8,7 +9,7 @@ function VideoPlayer(link) {
         className="react-player video"
         width="100%"
         height="100%"
-        playing={true}
+        playing={!isMobile}
         loop={true}
         muted={true}
       />
