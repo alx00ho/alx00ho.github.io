@@ -7,9 +7,6 @@ function Header() {
 
   const handleToggle = () => {
     setHamburgerOpen(!isHamburgerOpen);
-    console.log(isHamburgerOpen);
-    console.log(isHamburgerOpen ? "open" : "close");
-    console.log(isHamburgerOpen ? "shown" : "hidden");
   };
 
   return (
@@ -18,18 +15,18 @@ function Header() {
         <Link to="/">Alexander Ho</Link>
       </h1>
       <nav className="relative">
-        <div className="flex flex-col space-x-4 text-lg md:flex-row">
-          <div className="hidden md:flex">
-            <h1 className="ml-2">
+        <div className="flex text-lg md:flex-row">
+          <div className="hidden md:flex w-full md:space-x-8">
+            <h1 className="">
               <Link to="/">Home</Link>
             </h1>
-            <h1 className="ml-2">
+            <h1 className="">
               <Link to="/about-me">About Me</Link>
             </h1>
-            <h1 className="ml-2">
+            <h1 className="">
               <Link to="/resume">Resume</Link>
             </h1>
-            <h1 className="ml-2">
+            <h1 className="">
               <Link to="/projects">Projects</Link>
             </h1>
           </div>

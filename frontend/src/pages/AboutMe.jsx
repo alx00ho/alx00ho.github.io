@@ -3,19 +3,22 @@ import TeaHillImg from "../images/Tea-Hill.jpeg";
 function AboutMe() {
   return (
     <>
-      <section id="about-me-landing">
-        <section className="about-me flex items-center justify-center space-x-16">
-          <div className="w-96">
+      <section id="about-me">
+        <section
+          id="about-me-landing"
+          className="flex flex-col space-y-4 items-center justify-center h-3/4 md:space-x-16 md:space-y-0 md:flex-row"
+        >
+          <div>
             <img
               src={TeaHillImg}
               id="about-me-photo"
-              className="rounded border"
+              className="m-auto rounded border w-1/2 md:w-96"
               alt="View of Tea Hill from the front"
             />
           </div>
           <div
             id="about-me-info"
-            className="border w-96 rounded px-16 py-8 bg-white text-xl"
+            className="border w-7/8 px-4 py-4 rounded md:w-96 md:px-16 md:py-8 bg-white text-xl"
           >
             <h1>Alexander Ho</h1>
             <p>University of North Carolina Alumni</p>
@@ -24,7 +27,10 @@ function AboutMe() {
           </div>
         </section>
       </section>
-      <section id="about-me-paragraphs" className="mt-8 text-left leading-3">
+      <section
+        id="about-me-paragraphs"
+        className="mt-8 text-left text-md md:leading-3"
+      >
         <p className="p-4">
           Growing up, I was always captivated by creating projects with my
           hands. Puzzles, K'nex building sets, and the like caught my attention.

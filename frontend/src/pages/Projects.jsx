@@ -24,7 +24,7 @@ function Projects() {
                 extras={[
                   <div
                     key={0}
-                    className="flex flex-col w-7/8 items-center md:flex-row md:space-x-4"
+                    className="flex flex-col w-7/8 items-center md:flex-row md:w-1/2 md:space-x-4"
                   >
                     <img
                       className="border-2 border-stone-300 rounded"
