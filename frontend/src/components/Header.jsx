@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 function Header() {
-  const [isHamburgerOpen, setHamburgerOpen] = useState("false");
+  const [isHamburgerOpen, setHamburgerOpen] = useState(false);
 
   const handleToggle = () => {
     setHamburgerOpen(!isHamburgerOpen);
@@ -45,7 +45,7 @@ function Header() {
           </button>
         </div>
 
-        <div className="">
+        <div className="md:hidden">
           <div
             id="mobile=menu"
             className={`${

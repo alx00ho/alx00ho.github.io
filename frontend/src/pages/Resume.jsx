@@ -4,7 +4,7 @@ import AHResume from "../files/AlexanderHoResume.pdf";
 function Resume() {
   return (
     <>
-      <section id="resume" className="container">
+      <section id="resume" className="m-auto">
         <PDFViewer file={AHResume} />
       </section>
       <div id="download-resume">
