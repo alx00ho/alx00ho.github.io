@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.516c7a23.css",
-    "main.js": "/static/js/main.facd1fb8.js",
+    "main.css": "/static/css/main.41cc03b2.css",
+    "main.js": "/static/js/main.d16c6b0e.js",
     "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
     "static/media/Reception.png": "/static/media/Reception.1b70bece4e1b87d06bdc.png",
     "static/media/Tea-Hill.jpeg": "/static/media/Tea-Hill.49084984082435b61fe9.jpeg",
@@ -10,12 +10,12 @@
     "static/media/Favorites-Feature.jpeg": "/static/media/Favorites-Feature.bf5b0afe202f6d2d3307.jpeg",
     "static/media/King.woff2": "/static/media/King.ee82d02d5d755d93ff2b.woff2",
     "index.html": "/index.html",
-    "main.516c7a23.css.map": "/static/css/main.516c7a23.css.map",
-    "main.facd1fb8.js.map": "/static/js/main.facd1fb8.js.map",
+    "main.41cc03b2.css.map": "/static/css/main.41cc03b2.css.map",
+    "main.d16c6b0e.js.map": "/static/js/main.d16c6b0e.js.map",
     "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.516c7a23.css",
-    "static/js/main.facd1fb8.js"
+    "static/css/main.41cc03b2.css",
+    "static/js/main.d16c6b0e.js"
   ]
 }
