@@ -1,6 +1,6 @@
 function PDFViewer({ file }) {
   return (
-    <div className="pdf w-full h-screen">
+    <div className="pdf w-full h-3/4 md:h-screen">
       <object
         data={file}
         type="application/pdf"

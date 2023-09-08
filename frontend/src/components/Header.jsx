@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <header className="header text-2xl flex px-100 justify-between pt-8 p-4 border-b-2 border-stone-700 mb-8">
-      <h1>
+      <h1 onClick={isHamburgerOpen ? handleToggle : null}>
         <Link to="/">Alexander Ho</Link>
       </h1>
       <nav className="relative">
