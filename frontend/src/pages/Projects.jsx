@@ -22,7 +22,10 @@ function Projects() {
                 link={"https://github.com/Rocket-League-Stats/rlStats"}
                 desc={"Browse player and teams stats from professional events"}
                 extras={[
-                  <div key={0} className="flex w-1/2 space-x-4">
+                  <div
+                    key={0}
+                    className="flex flex-col w-7/8 items-center md:flex-row md:space-x-4"
+                  >
                     <img
                       className="border-2 border-stone-300 rounded"
                       alt="Highlighting the leaderboard feature"

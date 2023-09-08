@@ -55,16 +55,16 @@ function Header() {
               isHamburgerOpen ? "" : "hidden"
             } text-sm absolute -translate-x-20 -mt-12 bg-white px-8 py-4 pt-16 rounded border-2 border-stone-700`}
           >
-            <h1 className="">
+            <h1 className="" onClick={handleToggle}>
               <Link to="/">Home</Link>
             </h1>
-            <h1 className="">
+            <h1 className="" onClick={handleToggle}>
               <Link to="/about-me">About Me</Link>
             </h1>
-            <h1 className="">
+            <h1 className="" onClick={handleToggle}>
               <Link to="/resume">Resume</Link>
             </h1>
-            <h1 className="">
+            <h1 className="" onClick={handleToggle}>
               <Link to="/projects">Projects</Link>
             </h1>
           </div>
