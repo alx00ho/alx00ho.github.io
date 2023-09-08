@@ -1,18 +1,18 @@
-function ProjectItem(props) {
+function ProjectItem({ id, title, link, desc, extras }) {
   return (
-    <li className="project-item" key={props.id}>
+    <li className="project-item" key={id}>
       <h2 className="project-title">
         <a
-          href={props.link}
+          href={link}
           target="react/jsx-no-target-blank"
           rel="noopener noreferrer"
           className="project-link"
         >
-          {props.title}
+          {title}
         </a>
       </h2>
-      <p className="project-desc">{props.desc}</p>
-      <div className="project-extras">{props.extras}</div>
+      <p className="project-desc">{desc}</p>
+      <div className="project-extras">{extras}</div>
     </li>
   );
 }
