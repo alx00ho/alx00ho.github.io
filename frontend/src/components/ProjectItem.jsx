@@ -1,7 +1,7 @@
 function ProjectItem({ id, title, link, desc, extras }) {
   return (
-    <li className="project-item" key={id}>
-      <h2 className="project-title">
+    <li className="project-item mb-8 md:mb-4" key={id}>
+      <h2 className="project-title text-lg md:text-xl">
         <a
           href={link}
           target="react/jsx-no-target-blank"

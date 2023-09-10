@@ -9,6 +9,7 @@ function VideoPlayer(link) {
         className="react-player video"
         width="100%"
         height="100%"
+        controls={true}
         playing={!isMobile}
         loop={true}
         muted={true}

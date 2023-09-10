@@ -14,7 +14,9 @@ function Projects() {
       <section id="projects-info">
         <div className="container">
           <section id="projects-past">
-            <h1 className="text-4xl underline mb-8">Past Projects</h1>
+            <h1 className="text-3xl underline mb-4 md:mb-8 md:text-4xl">
+              Past Projects
+            </h1>
             <ul>
               <ProjectItem
                 key={1}
@@ -24,7 +26,7 @@ function Projects() {
                 extras={[
                   <div
                     key={0}
-                    className="flex flex-col w-7/8 items-center md:flex-row md:w-1/2 md:space-x-4"
+                    className="flex flex-col w-7/8 items-center space-y-4 md:flex-row md:w-1/2 md:space-y-0 md:space-x-4"
                   >
                     <img
                       className="border-2 border-stone-300 rounded"
@@ -161,9 +163,11 @@ function Projects() {
               />
             </ul>
           </section>
-          <section id="projects-upcoming" className="text-right">
-            <h1 className="text-4xl underline mb-8">Upcoming Projects</h1>
-            <ul>
+          <section id="projects-upcoming">
+            <h1 className="text-3xl underline mb-4 md:mb-8 md:text-right md:text-4xl">
+              Upcoming Projects
+            </h1>
+            <ul className="text-right">
               <li>Lobster and Tofu Website</li>
               <li>Musical Soundtracks</li>
               <li>Vietnamese Translator</li>
