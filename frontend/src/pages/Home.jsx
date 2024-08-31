@@ -1,4 +1,4 @@
-import CoverImg from "../images/cover_photo.png";
+import CoverImg from "../images/Cover_Photo.jpg";
 
 function Home() {
   return (
