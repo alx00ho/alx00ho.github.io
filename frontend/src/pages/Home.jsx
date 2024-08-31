@@ -1,4 +1,4 @@
-import ReceptionImg from "../images/Reception.png";
+import CoverImg from "../images/cover_photo.png";
 
 function Home() {
   return (
@@ -7,7 +7,7 @@ function Home() {
         <div className="container space-y-8 flex flex-col items-center justify-center md:flex-row md:space-x-16">
           <div className="w-3/4 md:w-96">
             <img
-              src={ReceptionImg}
+              src={CoverImg}
               alt="Img of Alexander and his significant other"
               id="home-photo"
               className="w-96 rounded"
