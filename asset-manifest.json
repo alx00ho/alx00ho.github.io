@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb93395f.css",
-    "main.js": "/static/js/main.4b01f0fc.js",
-    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
-    "static/media/Reception.png": "/static/media/Reception.1b70bece4e1b87d06bdc.png",
+    "main.css": "/static/css/main.7c1b2d2a.css",
+    "main.js": "/static/js/main.c6f09899.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/Cover_Photo.jpg": "/static/media/Cover_Photo.d329f5b3f5d95ec62a56.jpg",
     "static/media/Tea-Hill.jpeg": "/static/media/Tea-Hill.49084984082435b61fe9.jpeg",
     "static/media/Leaderboard-Features.png": "/static/media/Leaderboard-Features.c5f3324f8908e39b989d.png",
     "static/media/AlexanderHoResume.pdf": "/static/media/AlexanderHoResume.806e065c2cd0ec89fb3d.pdf",
     "static/media/Favorites-Feature.jpeg": "/static/media/Favorites-Feature.bf5b0afe202f6d2d3307.jpeg",
     "static/media/King.woff2": "/static/media/King.ee82d02d5d755d93ff2b.woff2",
     "index.html": "/index.html",
-    "main.fb93395f.css.map": "/static/css/main.fb93395f.css.map",
-    "main.4b01f0fc.js.map": "/static/js/main.4b01f0fc.js.map",
-    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+    "main.7c1b2d2a.css.map": "/static/css/main.7c1b2d2a.css.map",
+    "main.c6f09899.js.map": "/static/js/main.c6f09899.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/static/js/787.9e9f4ffd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb93395f.css",
-    "static/js/main.4b01f0fc.js"
+    "static/css/main.7c1b2d2a.css",
+    "static/js/main.c6f09899.js"
   ]
 }
